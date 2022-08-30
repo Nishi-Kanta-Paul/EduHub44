@@ -1,0 +1,26 @@
+CREATE TABLE `usertable` (
+  `id` int(11) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `code` mediumint(50) NOT NULL,
+  `status` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+
+CREATE TABLE `bookinfo` (
+  `course_name` varchar(255) NOT NULL,
+  `faculty_name` varchar(255) NOT NULL,
+  `outline` varchar(255) NOT NULL,
+  `book` varchar(255) NOT NULL,
+  `exam_question` varchar(255) NOT NULL,
+  `Materials` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE `facultyinfo` (
+  `f_id` int(11) NOT NULL,
+  `f_name` varchar(255) NOT NULL,
+  `f_title` text NOT NULL,
+  `f_email` varchar(255) NOT NULL,
+  `f_phone` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
