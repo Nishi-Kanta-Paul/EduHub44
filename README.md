@@ -5,3 +5,4 @@ of different courses, contacts and information of different faculties, bus routi
 things all in one place. We have added different features to our project. Let’s describe those one by one
 
 
+Video Link : https://drive.google.com/file/d/1AEdcSAtZDKiMF_eDGDRpWMLvEwc4nRZf/view?usp=sharing
