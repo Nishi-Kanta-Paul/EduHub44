@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact MU CSE 50</title>
+    <link rel="shortcut icon" type="image" href="images/favicon.png">
+
+    <!-- Links of CSS files -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 968px)">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+    <!-- Google font link -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Header Section Started -->
+
+    <section class="sub-header contactHeader">
+
+        <!-- Navigation Section Started -->
+
+        <nav>
+            <div class="logo" id="top">
+                <a href="index.html"> <img src="images/CSE_50_logo_white.png" alt="Logo"> </a>
+            </div>
+
+            <label for="btn" class="icon">
+                <span class="fa fa-bars"></span>
+            </label>
+            <input type="checkbox" name="" id="btn">
+
+            <ul>
+                <li> <a href="index.html"><i class="fas fa-home"> </i> Home </a> </li>
+                <li>
+
+                    <label for="btn-1" class="show"><i class="fas fa-book"> </i> Courses <i
+                            class="fas fa-caret-down"></i></label>
+
+                    <a href="#"><i class="fas fa-book"> </i> Courses </a>
+                    <input type="checkbox" id="btn-1">
+
+                    <ul>
+                        <li>
+                            <label for="btn-2" class="show">1st Semester <i class="fas fa-caret-down"></i></label>
+                            <a href="#"> 1st Semester <i class="fas fa-caret-right"></i> </a>
+                            <input type="checkbox" id="btn-2">
+
+
+                            <ul>
+                                <li><a href="Diff_Int_calc.html"> Differential & Integral Calculus </a></li>
+                                <li><a href="English-1.html"> English Language I </a></li>
+                                <li><a href="History.html"> History Emergence of Bangladesh </a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <label for="btn-3" class="show">2nd Semester <i class="fas fa-caret-down"></i></label>
+                            <a href="#"> 2nd Semester <i class="fas fa-caret-right"></i> </a>
+                            <input type="checkbox" id="btn-3">
+
+                            <ul>
+                                <li><a href="#"> Structured Programming + Lab </a></li>
+                                <li><a href="Physics-1.html"> Physics I </a></li>
+                                <li><a href="DE_and_LT.html"> Diff. Equation & Laplace Transform </a></li>
+                                <li><a href="English-2.html"> English Language II </a></li>
+                            </ul>
+                        </li>
+                        <li>
+
+                            <label for="btn-4" class="show">3rd Semester <i class="fas fa-caret-down"></i></label>
+                            <a href="#"> 3rd Semester <i class="fas fa-caret-right"></i> </a>
+                            <input type="checkbox" id="btn-4">
+
+                            <ul>
+                                <li><a href="Data_Structure.html"> Data Structure + Lab </a></li>
+                                <li><a href="Geometry_VA.html"> Geometry & Vector Analysis </a></li>
+                                <li><a href="Physics-2.html"> Physics II </a></li>
+                                <li><a href="F_Bangla.html"> Functional Bangla </a></li>
+                            </ul>
+                        </li>
+                        <li>
+
+                            <label for="btn-5" class="show">4th Semester <i class="fas fa-caret-down"></i></label>
+                            <a href="#"> 4th Semester <i class="fas fa-caret-right"></i> </a>
+                            <input type="checkbox" id="btn-5">
+
+                            <ul>
+                                <li><a href="Algorithm.html"> Algorithm + Lab </a></li>
+                                <li><a href="Basic_Electrical.html"> Basic Electrical Engineering </a></li>
+                                <li><a href="Basic_Statistics.html"> Basic Statistics and Probability </a></li>
+                            </ul>
+                        </li>
+                        <li>
+
+                            <label for="btn-6" class="show">5th Semester <i class="fas fa-caret-down"></i></label>
+                            <a href="#"> 5th Semester <i class="fas fa-caret-right"></i> </a>
+                            <input type="checkbox" id="btn-6">
+
+                            <ul>
+                                <li><a href="Basic_Electronics.html"> Basic Electronics Engineering </a></li>
+                                <li><a href="Matrix_CV_FA.html"> Matrix, CV & Fourier Analysis </a></li>
+                                <li><a href="Discreate_Math.html"> Discreate Mathematics </a></li>
+                                <li><a href="Project_200.html"> Project 200 </a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <label for="btn-7" class="show"><i class="fas fa-clock"> </i> Routine <i
+                            class="fas fa-caret-down"></i></label>
+
+                    <a href="#"><i class="fas fa-clock"> </i> Routine </a>
+                    <input type="checkbox" id="btn-7">
+
+                    <ul>
+                        <li> <a href="sectionA-routine.html"> Section A </a> </li>
+                        <li> <a href="sectionB-routine.html"> Section B </a> </li>
+                        <li> <a href="sectionC-routine.html"> Section C </a> </li>
+                        <li> <a href="sectionD-routine.html"> Section D </a> </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <label for="btn-8" class="show"><i class="fas fa-chalkboard-teacher"> </i> Tutorials <i
+                            class="fas fa-caret-down"></i></label>
+
+                    <a href="#"><i class="fas fa-chalkboard-teacher"> </i> Tutorials </a>
+                    <input type="checkbox" id="btn-8">
+
+                    <ul>
+                        <li> <a href="Programming-Tuto.html"> Programming </a> </li>
+                        <li> <a href="Web_Tuto.html"> Web Dev. </a> </li>
+                        <li> <a href="CoreCourse_Tuto.html"> Core Courses </a> </li>
+                        <li> <a href="Android_Tuto.html"> Android Dev. </a> </li>
+                        <li> <a href="UiUx_Tuto.html"> UI/UX Design </a> </li>
+                        <li> <a href="GraphicD_Tuto.html"> Graphic Design </a> </li>
+                        <li> <a href="Video_Edit_tuto.html"> Video Editing </a> </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <label for="btn-9" class="show"><i class="fas fa-poll"> </i> Result <i
+                            class="fas fa-caret-down"></i></label>
+
+                    <a href="#"><i class="fas fa-poll"> </i> Result </a>
+                    <input type="checkbox" id="btn-9">
+
+                    <ul>
+                        <li> <a href="result_records.html"> Previous Records </a> </li>
+                        <li> <a href="1stop.html"> 1 Stop Service </a> </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <label for="btn-10" class="show"><i class="fas fa-university"> </i> Academic <i
+                            class="fas fa-caret-down"></i></label>
+
+                    <a href="#"><i class="fas fa-university"> </i> Academic </a>
+                    <input type="checkbox" id="btn-10">
+
+                    <ul>
+                        <li> <a href="faculty-contact.html"> Faculty Info </a> </li>
+                        <li> <a href="Bus_Schedule.html"> Bus Schedule </a> </li>
+                    </ul>
+                </li>
+
+                <li> <a href="about.html"><i class="fas fa-address-card"> </i> About </a> </li>
+                <li> <a href="contact.html"><i class="fas fa-address-book"> </i> Contact </a> </li>
+            </ul>
+        </nav>
+
+        <!-- Navigation Section Ended -->
+
+
+        <h1> Contact Us </h1>
+
+    </section>
+
+    <!-- Header Section Ended -->
+
+
+    <!-- Script for form started -->
+
+    <script type="text/javascript">
+        var submitted = false;
+    </script>
+    <iframe name="msgForm" id="hidden_iframe" style="display: none" onload="contFormLoad()"></iframe>
+
+    <!-- Script for form Ended -->
+
+
+    <section class="location">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.0565629342764!2d91.97082851452488!3d24.930142948601986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3750552bc71c899d%3A0x804e438bcc32b390!2sMetropoliton%20University!5e0!3m2!1sen!2sbd!4v1623340558072!5m2!1sen!2sbd"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    </section>
+
+    <section class="contactUs">
+
+        <div class="row">
+
+            <div class="contactCol">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Metropoliton University Bangladesh</h5>
+                        <p>Tamabil Hwy, Bateshwar, Sylhet, Bangladesh.</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5><a href="tel:+8801765700825"> +880 1765 700 825 </a></h5>
+                        <p> Sunday to Thrushday, 9AM to 5PM </p>
+                    </span>
+                </div>
+                <div>
+                    <i class="far fa-envelope"></i>
+                    <span>
+                        <h5><a href="mailto:metrouni.cse.50@gmail.com" target="blank"> metrouni.cse.50@gmail.com </a></h5>
+                        <p> Email us your query </p>
+                    </span>
+                </div>
+            </div>
+
+            <div class="contactCol msg">
+
+                <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScMlX0B_uFTrGkYDPPhw_hL1YmaveLVuTKmwvf587E1J7V_xg/formResponse" method="post" target="msgForm" onsubmit="submitted=true" class="myform" id="contform">
+
+                    <input type="email" name="emailAddress" placeholder="Email" required>
+                    <input type="text" name="entry.805276147" placeholder="Name" required>
+                    <input type="text" name="entry.605097215" placeholder="Subject" required>
+                    <textarea rows="5" name="entry.740878952" placeholder="Message" required></textarea>
+                    <button type="submit" class="heroBtn widthBtn"> Send Message <i class="fas fa-paper-plane"></i> </button>
+                </form>
+
+                <p id="contSubMsg"></p>
+                <p id="contErrMsg"></p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Script for form started -->
+
+    <script type="text/javascript">
+        var submitted = false;
+    </script>
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display: none" onload="formLoad()"></iframe>
+
+    <!-- Script for form Ended -->
+
+    <!-- Footer section Started -->
+
+    <section class="footer">
+
+        <div class="fcol col-3 ftrTopEle">
+            <h4> Feedback </h4>
+            <div class="contactCol">
+
+                <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScMlX0B_uFTrGkYDPPhw_hL1YmaveLVuTKmwvf587E1J7V_xg/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true" class="myform" id="myform">
+
+                    <input type="text" name="entry.805276147" placeholder="Name" required>
+                    <input type="email" name="emailAddress" placeholder="Email" required>
+                    <textarea rows="3" name="entry.1586819207" placeholder="Feedback" required></textarea>
+                    <button type="submit" class="heroBtn"> Submit <i class="fas fa-paper-plane"></i> </button>
+                </form>
+
+                <p id="subMsg"></p>
+                <p id="errMsg"></p>
+            </div>
+        </div>
+        <div class="fcol col-3 ftrTopEle">
+
+            <h4>Quick Links</h4>
+
+            <ol>
+                <li><a href="https://metrouni.edu.bd" target="blank"> MU Website <i class="fas fa-external-link-alt"></i></a></li>
+                <li><a href="https://web.facebook.com/metropolitanuniversity" target="blank"> MU Facebook Page <i class="fas fa-external-link-alt"></i></a></li>
+                <li><a href="https://web.facebook.com/groups/metrouni/" target="blank">FB/ MU Official Group <i class="fas fa-external-link-alt"></i></a></li>
+                <li><a href="https://web.facebook.com/groups/Dept.of.CSE.MU/" target="blank">FB/ Department of CSE <i class="fas fa-external-link-alt"></i></a></li>
+                <li><a href="https://web.facebook.com/groups/734057760032501/" target="blank">FB/ Computer Programming <i class="fas fa-external-link-alt"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UC5HPvlTXV3rqOgit4Vp0IhA" target="blank"> MU YouTube Channel <i class="fas fa-external-link-alt"></i></a></li>
+            </ol>
+        </div>
+        <div class="fcol col-3 ftrTopEle">
+
+            <h4>About Us</h4>
+
+            <p>This website is designed and developed by the students of CSE 50th batch of Metropolitan University and it is not an official website. Our main purpose is to help our batch and our junior batches through this website.</p><br>
+        </div>
+        <div class="fcol col-3 flink ftrTopEle">
+
+            <h4>Follow Us</h4>
+            <div class="icons">
+                <a href="#"> <i class="fab fa-facebook-f"> </i></a>
+                <a href="#"> <i class="fab fa-twitter"> </i></a>
+                <a href="#"> <i class="fab fa-instagram"> </i></a>
+                <a href="#"> <i class="fab fa-linkedin-in"> </i></a>
+            </div>
+        </div>
+        <hr>
+        <div class="fcol col-6">
+
+            <p> &copy; 2021 MU_CSE-50(Metropolitan University)</p>
+        </div>
+
+        <div class="fcol col-6 ftop">
+
+            <a href="#top">
+                <div class="gotop">
+                    Back to Top <i class="fas fa-angle-double-up"></i>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer section Ended-->
+
+    <!-- Linked to javascript file -->
+    <script src="index.js"></script>
+
+</body>
+
+</html>
